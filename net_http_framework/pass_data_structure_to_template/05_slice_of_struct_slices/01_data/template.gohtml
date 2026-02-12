@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wisdom & Transport</title>
+</head>
+<body>
+
+<ul>
+    {{range .States}}
+    <li>{{.State}} - {{.Yeild}}</li>
+    {{end}}
+</ul>
+
+<ul>
+    {{range .Food}}
+    <li>{{.Manufaturer}} - {{.Food}} - {{.Type}}</li>
+    {{end}}
+</ul>
+
+</body>
+</html>

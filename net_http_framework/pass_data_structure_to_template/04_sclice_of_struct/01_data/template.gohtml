@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Peeps</title>
+</head>
+<body>
+<ul>
+    {{range .}}
+    <li>{{.State}} -  {{.Yeild}}</li>
+    {{end}}
+    </ul>
+    <ul>
+    {{range $s,$y := .}}
+    <li>{{$s}} -  {{$y}}</li>
+    {{end}}
+</ul>
+</body>
+</html>
